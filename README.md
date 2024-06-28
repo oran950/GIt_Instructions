@@ -1,7 +1,7 @@
 ## If you are using Windows, download and install Git Bash. For Linux or Mac, Git is typically pre-installed.
 
 # Create a new directory for your project and navigate into it
-mkdir gitproject <br / >
+mkdir gitproject <br>
 cd gitproject
 
 # Initialize a Git repository
@@ -11,9 +11,8 @@ git init
 touch index.html app.css
 
 # Add files to the staging area
-git add index.html app.css      # Add specific files 
-<br/ > 
-git add .                       # Add all files
+git add index.html app.css      # Add specific files <br>
+ git add .                       # Add all files
 
 # Commit changes
 git commit -m "Add HTML and CSS files"
